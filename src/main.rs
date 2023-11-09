@@ -1,3 +1,9 @@
+mod rary;
+
+use rary::{indirect_access, public_function};
+
 fn main() {
-    println!("Hello, world!");
+    // Crates
+    indirect_access();
+    public_function();
 }
